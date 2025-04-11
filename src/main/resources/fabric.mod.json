@@ -11,7 +11,7 @@
 		"homepage": "",
 		"sources": ""
 	},
-	"license": "MIT",
+	"license": "CC-BY-NC-SA",
 	"icon": "assets/zorraz-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
