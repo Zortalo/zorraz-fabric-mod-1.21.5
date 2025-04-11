@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "zorraz",
+	"version": "${version}",
+	"name": "Zorraz Mod",
+	"description": "A Mod for testing new ideas and cool stuff. Also implements all Datapack creations as optional additions",
+	"authors": [
+		"Zorra"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/zorraz-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"zorraz.mod.ZorrazMod"
+		],
+		"fabric-datagen": [
+			"zorraz.mod.ZorrazModDataGenerator"
+		],
+		"client": [
+			"zorraz.mod.ZorrazModClient"
+		]
+	},
+	"mixins": [
+		"zorraz-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
