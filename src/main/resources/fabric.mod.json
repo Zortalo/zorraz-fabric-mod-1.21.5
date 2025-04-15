@@ -12,7 +12,7 @@
 		"sources": ""
 	},
 	"license": "CC-BY-NC-SA",
-	"icon": "assets/zorraz-mod/icon.png",
+	"icon": "assets/zorraz/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
